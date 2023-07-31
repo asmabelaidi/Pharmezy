@@ -9,7 +9,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
   return (
-    <AppBar position="static" color ="inherit">
+    <AppBar position="fixed" color ="inherit" sx={{borderBottom: "2px solid #F6F8FB"}}>
     <Container maxWidth="xl">
       <Toolbar disableGutters>
         <Healing  color= "primary" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
